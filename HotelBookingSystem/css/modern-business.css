@@ -1,0 +1,144 @@
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.navbar-inverse .navbar-nav > li > a
+{
+	text-transform:uppercase;
+	font-weight:700;
+	color:#CCC;
+}
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+.package_btn
+{
+	margin-bottom:20px;
+	margin-right:15px;
+}
+.slider_btn
+{
+	margin:20px auto 50px;
+}
+/* Footer Styles */
+.contact-home
+{
+	color:#fff;
+}
+footer {
+  
+	background:#7C047F;
+	padding:15px 0;
+	color:#fff;
+}
+.contact-home a
+{
+	color:#fff;
+}
+.footer_main
+{
+	background:#3E0240;
+	color:#fff;
+	padding:30px 0;
+
+}
+.about_section
+{
+	margin-bottom:100px;
+}
+.shop_section
+{
+    padding: 150px 0 50px;
+    text-align: center;
+  
+}
+.img-thumbnail
+{
+	width:260px;
+	height:154px;
+}
+.img-portfolio
+{
+	width:360px;
+	height:232px;
+}
+.details_main
+{
+	padding-bottom:50px;
+}
+.slider_img
+{
+	width:100%;
+	height:auto;
+}
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
